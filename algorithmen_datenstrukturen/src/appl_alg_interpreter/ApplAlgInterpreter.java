@@ -15,7 +15,13 @@ public class ApplAlgInterpreter {
 //		ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/euklid2.apl"));
 		
 		
-		ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/russe.apl"));
+		//ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/russe.apl"));
+		
+		//ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/klausur_palindrom.apl"));
+		
+		ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/primzahlen03.apl"));
+		
+		
 //		ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/sum.apl"));
 //		ApplAlgParser parser = new ApplAlgParser(new File("appl_algs/sum2.apl"));
 		
