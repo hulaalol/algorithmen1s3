@@ -1,35 +1,29 @@
-main() = russe(45,19,0,0)
+main() = russe(1270,282,0,0)
 
 
 russe(x,y,r,f) = 	if x=1
-					then r
-
+					then (r+y)
+					else
 							if f=0 then
 				
 								if x%2=0 
 								then
-								russe(x/2,y*2,r+y,1)
-					
+								russe(x//2,y*2,r+y,0)
 								else 
-								then
-								russe(x/2,y*2,r+y,0)
-					
+								russe(x//2,y*2,r+y,1)
 								endif
 				
 							else
-								then
-				
-								if x%2=0
-								then
-								russe(x/2,y*2,r,1)
 					
+								if x%2 = 0 then
+								russe(x//2,y*2,r,0)
 								else
-								then
-								russe(x/2,y*2,r,0)
-								
+								russe(x//2,y*2,r+y,1)
 								endif
 					
 							endif
+						endif
+						
 					
 				
 				
